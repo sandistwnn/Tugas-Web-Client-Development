@@ -1,7 +1,1 @@
-This is repository for Exercise 3 Web Client Development(WCD) 
-
-```
-function test()=> {
-    console.log("This app is running well");
-}
-```
+![image](https://github.com/user-attachments/assets/47b81b0a-fd81-4038-bb7c-c129aed92584)
