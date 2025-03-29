@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+body {
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+  min-height: 100vh;
+}
+
+.page {
+  width: 1040px;
+  margin: 0px auto;
+  padding-top: 64px;
+}
+
+/* Check margin */
+nav {
+  font-family: 'Mulish', sans-serif;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Check list styling */
+nav ul {
+  display: flex;
+  gap: 48px;
+}
+
+/* Check list link style */
+nav ul li a {
+
+}
+
+/* Make text bold on hover */
+nav ul li a:hover {
+  
+}
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 88px;
+}
+
+/* Check margin and font styling */
+.text h1 {
+  font-family: 'Mulish', sans-serif;
+}
+
+/* Check font styling */
+.text h1 span {
+}
+
+/* Check font styling */
+.text p {
+  font-family: 'Open Sans', sans-serif; 
+}
+
+/* Check font styling and make sure the button is rounded */
+.text button {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  gap: 8px;
+}
+
+/* Handle when user hover on the button */
+.text button:hover {
+}
+
+/* Check the text styling */
+footer {
+  font-family: 'Open Sans', sans-serif; 
+}
+
+/* Check the text styling */
+footer a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+.button-wa{
+  background: #69b99d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  width: 150px;
+}
+
+.nav{
+  list-style: none;
+}
+
+.nav li a{
+  color: #242424;
+  text-decoration: none;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.text h1{
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.text span{
+  color: #69b99d; 
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
